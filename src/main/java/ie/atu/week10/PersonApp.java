@@ -19,5 +19,11 @@ public class PersonApp {
                 "\nCustomer Num:" + Dewan.getCustomerNumber() +
                 "\nMailing List:" + Dewan.isMailinglist());
 
+        PreferredCustomer dewan = new PreferredCustomer("Dewan", "CG", "123479", "696969", true, 600);
+        System.out.println(dewan.toString());
+
+        PreferredCustomer paddy = new PreferredCustomer();
+        paddy.setCustomerPurchase(2069);
+        System.out.println(paddy.toString());
     }
 }
